@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+/*Telas maiores*/
+@media screen and (min-width: 768px) {
+    
+
+*{  
+    padding: 0px;
+    margin: 0px;
+}
+body{
+     height: 100vh;
+     background-image: url(imagens/fundo_web.png);
+     background-position: right;
+     background-repeat: no-repeat;
+
+     background-attachment: fixed;
+     
+}
+header{
+    padding: 10px;
+    background-color: #5d49694f ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 2px 2px;
+    
+    
+}
+h1{
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 2px 1px 0px black;
+}
+h2{
+    font-size: 1.5em;
+    color: white;
+    text-shadow: 1px 1px 0px black;
+}
+
+
+
+#cont a > img{
+    margin: 30px;
+    
+}
+article{
+    background-image:linear-gradient(to top, #980fe733,#684d75);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    height: 100%;
+    width: 50%;
+    float: left;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: justify;
+    text-indent: 20px;
+
+}
+article:hover{
+    padding: 16px 12px;
+    transition: 0.3s;
+}
+
+section{
+    background-image:linear-gradient(to top, #980fe74f,#684d75);
+    padding: 10px;
+    font-size: 1.3em;
+    margin: 50px;
+    border-radius: 10px;
+    color: black;
+    float: right;
+    width: 400px;
+    height: 400px;
+
+}
+
+section > img{
+    margin-left: 100px;
+}
+section:hover{
+    background-color: #684d75;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.3s;
+
+}
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+#button{
+    background-color: rgba(255, 255, 255, 0.788);
+    display: block;
+    margin: auto;
+    height: 60px;
+    font-size: 2em;
+    width: 150px;
+    border-radius: 10px;
+}
+#button:hover{
+    background-color: darkgray;
+}
+
+.jogo{
+    padding-left: 20px;
+}
+
+.jogo:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.3s;
+
+
+}
+.login:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.login{
+    padding-left: 20px;
+   
+   
+
+}
+
+.redes{
+    padding: 20px;
+}
+
+.redes:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+
+h3{
+    background-color: rgba(75, 37, 110, 0.658);
+    text-align: center;
+    font-size: 2em;
+    padding: 10px;
+    border: 5px solid black;
+    color: white;
+}
+#cont{
+    margin: auto;
+    height: 300%;
+    width: 90vw;
+    background-color: #4c3c54;
+
+}
+
+ul > li{
+    margin-top: 15px;
+    list-style: none;
+}
+
+ul> li > a{
+    padding-top: 10px;
+    text-decoration: none;
+    color: white; 
+}
+
+li > a:hover{
+    text-decoration: underline;
+}
+
+
+
+}
