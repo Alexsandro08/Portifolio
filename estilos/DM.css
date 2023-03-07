@@ -12,27 +12,28 @@
     header{
         padding: 10px;
         background-color: #5d49694f ;
-        display: flex;
+        display: block;
+        margin-left: -10px;
         width: 100vw;
         color: white;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        box-shadow: 0px 0px 2px 2px;
+        box-shadow: 2px 2px 30px 0px;
         font-family: Arial, Helvetica, sans-serif;
         
         
     }
     h1{
         font-size: 3em;
+        text-align: center;
     }
     h2{
         margin-top: -10px;
         font-size: 1.1em;
+        text-align: center;
     }
     #button{
         display: block;
         margin: auto;
+        margin-top: 10px;
         width: 200px;
         height: 40px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
