@@ -59,12 +59,12 @@
         background-image:linear-gradient(to top, #980fe74f,#684d75);
         width: 320px;
         height: 300px;
-        border-radius: 10px;
+        border-radius: 80px;
         
        
     }
     section > img{
-        margin-left: 80px;
+        margin-left: 82px;
         padding: 10px;
         width: 120px;
 
@@ -116,7 +116,7 @@
         text-shadow: 2px 2px 0px black;
         text-align: center;
     }
-  
+    
 
 }
 
